@@ -1,0 +1,16 @@
+Shoppers:
+- Seek to get to stores/chair/exit
+- Avoid to avoid static obstacles
+- Flee to keep a separation between other shoppers and advertisers
+
+Advertisers:
+- Seek to follow shoppers
+- Avoid to avoid static obstacles
+- Flee to keep separation between shoppers
+- Triply strong flee for larger separation between advertisers
+
+Colors:
+Pink = Shop and Eat
+Dark Blue = Exit
+Light Blue = Wandering Advertiser
+Green = Flyered Shopper/Advertiser
